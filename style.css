@@ -1,0 +1,96 @@
+:root {
+
+    /* Fonte */
+
+    --fonte: "Kanit", sans-serif;
+
+    /*Cores */
+
+    --degrade: radial-gradient( circle farthest-corner at 5.6% 54.5%,  rgba(47,71,79,1) 0%, rgba(159,188,198,1) 83.6% );
+    --branco: #EBF3E8;
+    --preto: #0F0F0F;
+}
+
+body {
+    background: var(--degrade);
+    color: var(--branco);
+    font-family: var(--fonte);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* conteudo princial */
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+/* imagem */
+
+.container .container-perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container-perfil .link__perfil {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* lista de links */
+
+.lista-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    
+}
+
+.lista-container .item-lista {
+    border: 1px solid var(--preto);
+    background-color:var(--branco);
+    padding: 1rem;
+    border-radius: 1.5rem;
+    box-shadow: 10px 10px var(--preto);
+    color: var(--preto);
+    cursor: pointer;
+}
+
+
+.lista-container .github,
+.linkedin {
+    padding: 0 6.3rem;
+}
+
+.lista-container .projeto {
+    padding: 0 5.1rem;
+}
+
+.icone {
+    margin-right: 0.9rem;
+}
+
+/* Responsividade para celular */
+
+@media screen and (max-width: 767px){
+    .lista-container .github,
+.linkedin {
+    padding: 0 4rem;
+}
+
+.lista-container .projeto {
+    padding: 0 2.8rem;
+}
+}
+
+
+
