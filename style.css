@@ -63,16 +63,9 @@ body {
     box-shadow: 10px 10px var(--preto);
     color: var(--preto);
     cursor: pointer;
-}
-
-
-.lista-container .github,
-.linkedin {
-    padding: 0 6.3rem;
-}
-
-.lista-container .projeto {
-    padding: 0 5.1rem;
+    width: 280px;
+    display: flex;
+    justify-content: center;
 }
 
 .icone {
@@ -82,14 +75,9 @@ body {
 /* Responsividade para celular */
 
 @media screen and (max-width: 767px){
-    .lista-container .github,
-.linkedin {
-    padding: 0 4rem;
-}
-
-.lista-container .projeto {
-    padding: 0 2.8rem;
-}
+    .lista-container .item-lista {
+        width: 225px;
+    }
 }
 
 
