@@ -1,6 +1,6 @@
 ## Site de links
 
-![image](https://github.com/luizfsb/luizlinks/assets/135073507/69841cd1-bf46-46e9-9ccc-68b612f815e6)
+![image](https://github.com/luizfsb/luizfsb-links/assets/135073507/ba2ec1c1-e12d-4202-8317-13c964b8fcf4)
 
 
 Este site é utilizado para manter os meus links de contatos em redes socias e projetos criados.
